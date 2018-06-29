@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/night"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/lightOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:layout_marginTop="130dp"
+            android:textSize="45sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:textColor="@color/darkOrange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a simple Quiz on animals, Find out how well you know animals"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stylebutton"
+            android:onClick="startQuiz"
+            android:text="START THE QUIZ NOW"
+            android:layout_gravity="center"/>
+        
+
+    </LinearLayout>
+
+</LinearLayout>
